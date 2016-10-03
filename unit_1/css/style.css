@@ -3,5 +3,9 @@ body {
 }
 
 h1, p {
-    color: gold;
+    color: yellow;
+}
+
+h2, ul {
+	color: #f0c200;
 }
