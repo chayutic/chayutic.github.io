@@ -1,0 +1,72 @@
+body {
+	background: url('../images/background.png') no-repeat;
+	background-size: cover;
+	background-color: #000;
+}
+
+nav {
+	float: right;
+	margin-top: 1vw;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1.6vw;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding-right: 4vw;
+}
+
+#logo {
+	float: center;
+	width: 3vw;
+	height: auto;
+	margin-top: 2.55vw;
+	margin-left: 4vw;
+}
+
+h1 {
+	font-family: "Palatino Linotype," serif;
+	font-weight: bold;
+	font-size: 4vw;
+	text-transform: uppercase; 
+	color: #fff;
+	position: relative;
+	top: 8.5vw;
+	margin-left: 20vw;
+}
+
+h2 {
+	font-family: "Palatino Linotype," serif;
+	font-weight: normal;
+	font-size: 1.25vw;
+	color:#fff;
+	position: relative;
+	top: 7.5vw;
+	margin-left: 20vw;
+}
+
+h3 a {
+	font-family: sans-serif;
+	font-size: 1.5vw;
+	color: #fff;
+	background-color: #ff3399;
+	text-decoration: none;
+	position: relative;
+	padding: .6vw 2vw .6vw 2vw;
+	margin-right: 1vw;
+	top: 10vw;
+	left: 20vw;
+}
