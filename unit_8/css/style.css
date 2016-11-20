@@ -1,0 +1,372 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
+* { margin:0; padding:0; box-sizing:border-box; }
+header {
+	background: url('../images/background.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+body {
+	font-size: 30px;
+}
+
+#logo {
+	display: inline-block;
+	min-width: .75em;
+	width: 1.7em;
+	margin-top: 2.55%;
+	margin-left: 4%;
+}
+
+nav {
+	list-style-type: none;
+	float: right;
+	display: inline-block;
+	margin-top: 2.55%;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: .9em;
+}
+
+input {
+	display: none;
+	z-index: 1;
+}
+
+#top_nav a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding-right: 4vw;
+}
+
+#top_nav li {
+	display: inline-block;
+}
+
+#title {
+	font-family: 'Abril Fatface', serif;
+	font-size: 7vmin;
+	font-weight: normal;
+	line-height: 1em;
+	text-transform: uppercase;
+	text-shadow: 0 0 10px rgba(0,0,0,.75);
+	color: #fff;
+	position: relative;
+	padding-top: 20vh;
+	margin-left: 20%;
+}
+
+#subtitle {
+	font-family: 'PT Serif', serif;
+	font-weight: normal;
+	font-size: 2.5vmin;
+	text-shadow: 0 0 10px rgba(0,0,0,.75);
+	color:#fff;
+	position: relative;
+	top: 3vh;
+	margin-left: 20%;
+}
+
+.action_buttons a {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: .7em;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	background-color: #ff3399;
+	text-decoration: none;
+	position: relative;
+	padding: .4em 0.2em .4em 0.2em;
+	margin-right: 1vw;
+	top: 9vh;
+	left: 20%;
+	width: 8em;
+}
+
+body {
+	margin: 0px;
+}
+
+main {
+	display: inline-flex;
+	margin-left: 20%;
+}
+
+aside {
+	position: fixed;
+	display: inline-block;
+	top: 0%;
+	left: 0%;
+	z-index: -2;
+	padding-top: 5%;
+	padding-left: 5%;
+	width: 20vw;
+	height: 100%;
+}
+
+aside ul {
+	list-style-type: none;
+	padding-left: 0;
+	padding-bottom: 10vw;
+}
+
+#aside_nav a {
+	display: inline-block;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	padding-right: 4vw;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 2vw;
+	vertical-align: top;
+}
+
+footer {
+	font-family: 'PT Serif', palatino, serif;
+	font-size: 1vw;
+}
+
+.article_view {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	}
+
+article {
+	padding-right: 1vw;
+}
+
+h4, h5 {
+	color: white;
+	padding: .2vw;
+	margin: 0;
+	filter: alpha(opacity=0);
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1vw;
+	font-weight: 800;
+
+}
+
+h5 {
+	font-family: 'Raleway', sans-serif;
+	font-size: .8vw;
+	font-weight: 400;
+}
+
+.title_hover {
+
+}
+
+.title_hover:hover {
+	filter: alpha(opacity=100);
+	background-color: rgba(0,0,0,.8);
+	padding: 0vw;
+	transition: all 0.1s ease-in-out;
+}
+
+.article_cover_image {
+	width: 100%;
+}
+
+p {
+	font-family: 'PT Serif', 'palatino', serif;
+	font-size: 1vmax;
+}
+
+@media screen and (max-width: 800px) {
+	#logo {
+		display: none;
+	}
+
+	nav {
+		width: 100%;
+		text-align: center;
+		margin-top: 0;
+		font-size: 4vmin;
+	}
+
+
+	#top_nav li {
+		display: block;
+		padding: .6em 0 .6em 0;
+		background-color: rgba(0,0,0,.5);
+		border-bottom: 3px;
+		border-bottom-style: solid;
+		border-color: black;
+	}
+
+	#title {
+		top: 0;
+		padding-top: 35vh;
+		font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+		font-size: 9vmin;
+		line-height: 1em;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	#subtitle {
+		font-family: 'Raleway', sans-serif;
+		font-size: 4vmin;
+		line-height: 1em;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.action_buttons a {
+		display: block;
+		font-size: 80%;
+		padding: .4em 0.2em .4em 0.2em;
+		position: none;
+		text-align: center;
+		top: 6vh;
+		left: 0;
+		margin: 1em auto;
+}
+
+
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: white;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.3s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.35s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: white;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#top_nav
+{
+  position: absolute;
+  width: 100%;
+  margin: -100px 0 0 -50px;
+  padding-top: 25px;
+  
+  transform-origin: 0% 0%;
+  transform: translate(0%, -100%);
+  
+  transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+/*
+ * And let's fade it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: scale(1.0, 1.0);
+  opacity: 1;
+}
+
+
+
+	}
+
+@media only screen and (max-width: 500px) {
+	#top_nav li {
+		border-bottom: 1px;
+		border-bottom-style: solid;
+		border-color: black;
+	}
+
+	.action_buttons a {
+		font-size: 65%
+	}
+}
